@@ -2,12 +2,12 @@ Run_analysis
 ======================
 
 Introduction
-============
+------------
 This is an R script written for the "Getting and Cleaning Data" course project. The goal of the script was to prepare a tidy data set according to the Coursera requirements.
 
 
 Coursera Requirements
-=====================
+---------------------
 You should create one R script called run_analysis.R that does the following. 
 
    1. Merges the training and the test sets to create one data set.
@@ -18,7 +18,7 @@ You should create one R script called run_analysis.R that does the following.
 
 
 General Usage Notes
-===================
+-------------------
 - The function (run_analysis) will check the working directory for the presence of the data set folder. If no such file exists, the script will attempt to download it.
 - From the Coursera requirements, step 2  was interpreted as only using data that contain either "std" (standard deviation) or "mean" (mean) in the variable name.
 - Descriptive varible names were based on the unabridged definitions in the features_info.txt file. According to the week 4 video, 'Editing Text Variables', decriptive variable names should be all lowercase, and not contain spaces, underscores or dots.
@@ -27,3 +27,4 @@ General Usage Notes
 	- 'x', 'y', and 'z' was used to denote the 'xaxis', 'yaxis', and 'zaxis'.
 	- 'acc' was used to denote 'acceleration' indicating that the database came from the accelerometer.
 	- 'gyr' was used to denote 'gyroscope' indicating that the database came from the gyroscope.
+- A text file of the tidy data set will be saved to the working directory.
