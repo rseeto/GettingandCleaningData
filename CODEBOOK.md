@@ -19,7 +19,8 @@ The following steps were used to clean the data and produce the text file:
   
 The complete script used to create the text file (run\_analysis.R) and associated readme file can be found at [https://github.com/rseeto/GettingandCleaningData](https://github.com/rseeto/GettingandCleaningData).  
   
-  
+Data Dictionary Introduction
+----------------------------
 The data dictionary is presented in the following format:  
   
 **VARIABLE NAME**  
