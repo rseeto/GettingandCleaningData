@@ -44,6 +44,7 @@ run_analysis <- function(){
     names(settotal) <- gsub("z$", "zaxis", names(settotal))
     names(settotal) <- gsub("acc", "acceleration", names(settotal))
     names(settotal) <- gsub("gyro", "gyroscope", names(settotal))
+    names(settotal) <- gsub("std", "standardeviation", names(settotal))
 
 ##adds subject number to table
     subjecttest <- read.csv("UCI HAR Dataset/test/subject_test.txt", header = FALSE)
@@ -67,7 +68,9 @@ run_analysis <- function(){
             outcomesubsetted <- as.data.frame(append(byactivity[1, 1:2], meanssubsetted))
             activitysubjectdf <- rbind(activitysubjectdf, outcomesubsetted)
         }
-    
     }
+##eliminate periods from descriptive variable names
+    names(activitysubjectdf) <- gsub("[.]", "", names(activitysubjectdf))
+
 write.table(activitysubjectdf, "gettingandcleaningdataproject.txt", sep="\t", row.name = FALSE)
 }
