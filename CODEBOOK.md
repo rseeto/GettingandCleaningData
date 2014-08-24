@@ -5,7 +5,7 @@ gettingandcleaningdataproject Code Book
   
 Introduction  
 ------------  
-The gettingandcleaningdataproject.txt is a tab-separated file is derived from the data set at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)   
+The gettingandcleaningdataproject.txt is a tab-separated file derived from the data set at [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)   
 
 The following steps were used to clean the data and produce the text file:
 
